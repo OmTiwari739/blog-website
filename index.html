@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Blog</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Icons for social media -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Lora&display=swap" rel="stylesheet"> <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome for Social Media Icons -->
+</head>
+<body>
+
+    <header>
+        <div class="overlay">
+            <h1>Welcome to My Travel Blog</h1>
+            <p>Adventures, one journey at a time</p>
+        </div>
+    </header>
+    <hr />
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#posts">Blog Posts</a></li>
+            <li><a href="#video">Travel Video</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <hr />
+
+    <section id="posts" class="content-section">
+        <h2>Latest Blog Posts</h2>
+
+        <div class="grid-container">
+            <article>
+                <h3>Chasing Sunsets in the Mountains</h3>
+                <p class="summary"><strong>Summary:</strong> A memorable trek through the peaks, ending with a magical sunset.</p>
+                <p class="content">I ventured into the mountains for fresh air, and the highlight was a breathtaking sunset that painted the sky orange. Here’s a photo that comes close!</p>
+                <img src="sunset.jpg" alt="Sunset over mountains">
+            </article>
+
+            <article>
+                <h3>Wandering the Streets of Paris</h3>
+                <p class="summary"><strong>Summary:</strong> An afternoon exploring Paris, from hidden cafes to iconic landmarks.</p>
+                <p class="content">Paris has a charm like no other city. Here's a look at my visit, including the Eiffel Tower!</p>
+                <img src="EiffelTower.jpg" alt="Eiffel Tower in Paris" width="550">
+            </article>
+        </div>
+    </section>
+    <hr />
+
+    <section id="about" class="content-section">
+        <h2>About Me</h2>
+        <p>Hi, I'm Om Tiwari, an explorer documenting adventures. Whether you seek inspiration or just enjoy reading about different cultures, I hope my blog offers a great journey!</p>
+    </section>
+    <hr />
+
+    <section id="video" class="content-section">
+        <h2>Check Out My Travel Video</h2>
+        <p>Here's a short clip from one of my recent trips. Hope you enjoy it!</p>
+        <div class="video-container">
+            <video controls>
+                <source src="paris.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <hr />
+
+    <section id="contact" class="content-section">
+        <h2>Get in Touch</h2>
+        <p>If you'd like to reach out, send me an email or connect on social media:</p>
+        <p>Email: <a href="mailto:omtiwari739@gmail.com">omtiwari739@gmail.com</a></p>
+
+        <p>Find me on social media:</p>
+        <ul class="social-links">
+            <li>
+                <a href="https://x.com/OmTiwarii" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com/omtiwari739" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+            </li>
+        </ul>
+
+        <h3>Send a Message</h3>
+        <form>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" placeholder="Write your message" required></textarea><br><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+    <hr /> 
+
+    <footer>
+        <p>&copy; 2024 My Travel Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
